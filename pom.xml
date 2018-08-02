@@ -6,7 +6,7 @@
 
   <groupId>cicd.com</groupId>
   <artifactId>cicd.com</artifactId>
-  <version>1.5-SNAPSHOT</version>
+  <version>1.7-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>cicd.com Maven Webapp</name>
