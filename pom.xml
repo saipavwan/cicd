@@ -25,11 +25,11 @@
         <name>Internal Snapshots</name>
         <url>http://54.158.124.113:8080/nexus-2.14.8-01/content/repositories/snapshots/</url>
     </snapshotRepository>
-    <repository>
+    <releaseRepository>
         <id>InternalReleases</id>
         <name>Internal Releases</name>
         <url>http://54.158.124.113:8080/nexus-2.14.8-01/content/repositories/releases/</url>
-    </repository>
+    </releaseRepository>
 </distributionManagement>
   <dependencies>
     <dependency>
