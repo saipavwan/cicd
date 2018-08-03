@@ -73,17 +73,7 @@
           <artifactId>maven-deploy-plugin</artifactId>
           <version>2.8.2</version>
         </plugin>
-         <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-external-version-plugin</artifactId>
-        <version>2.0.0-SNAPSHOT</version>
-        <extensions>true</extensions>
-        <configuration>
-            <strategy hint="script">
-                <script>SOME_COMMAND</script>
-            </strategy>
-        </configuration>
-    </plugin>
+         
       </plugins>
     </pluginManagement>
   </build>
