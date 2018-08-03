@@ -38,6 +38,12 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>dependency-maven-plugin</artifactId>
+    <version>1.5.0</version>
+</dependency>
+
   </dependencies>
 
   <build>
