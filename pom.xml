@@ -39,9 +39,10 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-    <groupId>org.codehaus.mojo</groupId>
-    <artifactId>dependency-maven-plugin</artifactId>
-    <version>1.5.0</version>
+  <groupId>org.codehaus.mojo</groupId>
+  <artifactId>build-helper-maven-plugin</artifactId>
+  <version>3.0.0</version>
+  <type>maven-plugin</type>
 </dependency>
 
   </dependencies>
@@ -52,7 +53,7 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>buildnumber-maven-plugin</artifactId>
-        <version>1.5.0</version>
+        <version>3.0.0</version>
         <executions>
           <execution>
             <id>buildnumber</id>
