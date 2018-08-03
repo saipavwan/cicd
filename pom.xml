@@ -41,14 +41,8 @@
   </dependencies>
 
   <build>
-    <scm>
-     <connection>scm:svn:http://127.0.0.1/dummy</connection>
-    <developerConnection>scm:svn:https://127.0.0.1/dummy</developerConnection>
-    <tag>HEAD</tag>
-    <url>http://127.0.0.1/dummy</url>
-  </scm>
-  <build>
-    <plugins>
+    
+  <plugins>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>buildnumber-maven-plugin</artifactId>
@@ -74,8 +68,8 @@
       </plugin>    
     </plugins>
     <finalName>${project.artifactId}-${project.version}.${buildNumber}</finalName>
-  </build>
-    <finalName>cicd.com</finalName>
+  
+ 
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
