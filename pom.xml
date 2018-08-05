@@ -32,7 +32,7 @@
     </snapshotRepository>
 </distributionManagement>
   <scm>
-          <connection>https://github.com/saipavwan/cicd</connection>
+          <connection>https://github.com/saipavwan/cicd.git</connection>
           
   </scm>
 
