@@ -3,10 +3,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <scm>
-          <connection>https://github.com/saipavwan/cicd</connection>
-          <tag>releaes-tag</tag>
-  </scm>
+ <scm>
+  <connection>scm:git:https://github.com/saipavwan/cicd</connection>
+  <developerConnection>scm:git:https://github.com/saipavwan/cicd</developerConnection>
+  <url>https://github.com/saipavwan/cicd</url>
+</scm>
 
   <groupId>cicd.com</groupId>
   <artifactId>cicd.com</artifactId>
