@@ -31,6 +31,10 @@
         <url>http://54.209.225.151:8080/nexus-2.14.8-01/content/repositories/snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
+  <scm>
+          <connection>https://github.com/saipavwan/cicd</connection>
+          
+  </scm>
 
   <dependencies>
     <dependency>
