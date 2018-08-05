@@ -32,6 +32,10 @@
     </snapshotRepository>
 </distributionManagement>
 
+   <scm>
+          <connection>https://github.com/saipavwan/cicd</connection>
+          <tag>releaes-tag</tag>
+  </scm>
 
   <dependencies>
     <dependency>
