@@ -21,16 +21,16 @@
   </properties>
   <distributionManagement>
     
-    <repository>
-        <id>InternalReleases</id>
-        <name>Internal Releases</name>
-        <url>http://52.11.96.101:8080/nexus-2.14.8-01%20(1)/content/repositories/releases/</url>
-    </repository>
-    <snapshotRepository>
-        <id>InternalSnapshots</id>
-        <name>Internal Snapshots</name>
-        <url>http://52.11.96.101:8080/nexus-2.14.8-01%20(1)/content/repositories/snapshots/</url>
-    </snapshotRepository>
+    <properties>
+				<releaseRepository-Id>adobe-public-releases</releaseRepository-Id>
+				<releaseRepository-Name>Adobe Public Releases</releaseRepository-Name>
+				<releaseRepository-URL>http://52.11.96.101:8080/nexus-2.14.8-01%20(1)/content/repositories/releases/-URL>
+			</properties>
+  #  <snapshotRepository>
+   #     <id>InternalSnapshots</id>
+    #    <name>Internal Snapshots</name>
+     #   <url>http://52.11.96.101:8080/nexus-2.14.8-01%20(1)/content/repositories/snapshots/</url>
+    #</snapshotRepository>
 </distributionManagement>
 
    
