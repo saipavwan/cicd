@@ -5,8 +5,8 @@
   <modelVersion>4.0.0</modelVersion>
  
 
-  <groupId>cicd.com</groupId>
-  <artifactId>cicd.com</artifactId>
+  <groupId>practice</groupId>
+  <artifactId>cicd</artifactId>
   <version>${BUILD_VERSION}</version>
   <packaging>war</packaging>
  
@@ -22,14 +22,14 @@
   <distributionManagement>
     		<repository>
       <id>nexus-releases</id>
-      <url>http://54.149.56.147:8080/nexus-2.14.8-01%20(1)/content/repositories/releases/</url>
+      <url>http://52.11.227.26:8080/nexus-2.14.8-01%20(1)/content/repositories/releases/</url>
    </repository>
 	
 			 
     <snapshotRepository>
        <id>InternalSnapshots</id>
     <name>Internal Snapshots</name>
-      <url>http://54.149.56.147:8080/nexus-2.14.8-01%20(1)/content/repositories/snapshots/</url>
+      <url>http://52.11.227.26:8080/nexus-2.14.8-01%20(1)/content/repositories/snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
   
